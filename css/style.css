@@ -1,0 +1,68 @@
+body{
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+header{
+    display: flex;
+    background-color: #3f8f8d;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+
+}
+main{
+    display: flex;
+    justify-content: space-around;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+table{
+    border-spacing: 30px;
+    text-align: center;
+}
+th , td{
+    border: 2px solid black;
+}
+footer{
+    display: flex;
+    background-color: #3f8f8d;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+tr:nth-child(odd)
+{
+    background-color: red;
+}
+tr:nth-child(even)
+{
+    background-color:green;
+}
+
+
+
+.fff input:nth-child(1)
+{
+    background-color: green;
+    border: none;
+    
+}
+
+.fff input:nth-child(2)
+{
+    background-color: red;
+    border: none;
+}
+
+
+
+fieldset
+{border-radius: 22px;
+    border: 2px dotted;
+    padding: 22px;}
